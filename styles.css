@@ -1,15 +1,15 @@
 :root {
-  --primary-purple: #2A1A8A;
-  --primary-blue: #1A4A8A;
-  --primary-indigo: #1A1C7A;
+  --primary-purple: #4F35B8;
+  --primary-blue: #1656C1;
+  --primary-indigo: #312E81;
 
-  --accent-lavender: #5A4AAA;
-  --accent-lightblue: #C8D8F0;
+  --accent-lavender: #EEE9FF;
+  --accent-lightblue: #EBF3FF;
 
-  --text-dark: #1A1A1A;
+  --text-dark: #1E1B4B;
   --text-light: #FFFFFF;
 
-  --bg-light: #F7F7F7;
+  --bg-light: #F9F8FF;
   --white: #FFFFFF;
 
   color-scheme: light;
@@ -83,8 +83,16 @@ textarea {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  display: block;
 }
 
 .site-nav,
@@ -183,8 +191,8 @@ textarea {
 .hero-panel-card {
   padding: 2rem;
   border-radius: 1.5rem;
-  background: linear-gradient(180deg, rgba(107, 78, 255, 0.12), rgba(229, 224, 255, 0.35));
-  border: 1px solid rgba(107, 78, 255, 0.18);
+  background: linear-gradient(180deg, rgba(79, 53, 184, 0.12), rgba(238, 233, 255, 0.35));
+  border: 1px solid rgba(79, 53, 184, 0.18);
   min-height: 220px;
 }
 
@@ -217,7 +225,7 @@ textarea {
   padding: 1.35rem;
   border-radius: 1.25rem;
   background: var(--white);
-  border: 1px solid rgba(79, 139, 255, 0.14);
+  border: 1px solid rgba(22, 86, 193, 0.14);
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.04);
 }
 
@@ -315,7 +323,7 @@ textarea {
   padding: 1.8rem;
   border-radius: 1.25rem;
   background: var(--accent-lightblue);
-  border: 1px solid rgba(79, 139, 255, 0.18);
+  border: 1px solid rgba(22, 86, 193, 0.18);
 }
 
 .feature-card h3,
@@ -358,7 +366,7 @@ textarea {
   border-radius: 1rem;
   background: var(--accent-lavender);
   text-align: center;
-  border: 1px solid rgba(107, 78, 255, 0.18);
+  border: 1px solid rgba(79, 53, 184, 0.18);
 }
 
 .about-stats strong {
@@ -404,7 +412,7 @@ textarea {
 }
 
 .footer-inner {
-  border-top: 1px solid rgba(107, 78, 255, 0.16);
+  border-top: 1px solid rgba(79, 53, 184, 0.16);
 }
 
 .site-footer p {

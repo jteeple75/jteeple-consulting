@@ -1,0 +1,31 @@
+<svg width="680" height="280" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>JTeeple Consulting logo</title>
+  <desc>Infinity symbol in deep purple with rounded ocean blue arrows pointing toward a teal diamond at center</desc>
+
+  <style>
+    .wordmark { font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: 22px; fill: #1E1B4B; letter-spacing: -0.02em; }
+    .tag { font-family: Inter, system-ui, sans-serif; font-weight: 400; font-size: 10px; fill: #4A5568; letter-spacing: 0.18em; }
+  </style>
+
+  <path d="M230,118 C230,86 268,70 300,88 C330,104 338,128 340,128"
+    fill="none" stroke="#4F35B8" stroke-width="13" stroke-linecap="butt"/>
+  <path d="M230,118 C230,150 268,166 300,148 C330,132 338,108 340,108"
+    fill="none" stroke="#4F35B8" stroke-width="13" stroke-linecap="butt"/>
+  <path d="M340,128 C342,128 350,104 380,88 C412,70 450,86 450,118"
+    fill="none" stroke="#4F35B8" stroke-width="13" stroke-linecap="butt"/>
+  <path d="M340,108 C342,108 350,132 380,148 C412,166 450,150 450,118"
+    fill="none" stroke="#4F35B8" stroke-width="13" stroke-linecap="butt"/>
+
+  <path d="M246,118 Q225,108 224,107 Q223,107 223,108 L223,128 Q223,129 224,129 Q225,128 246,118 Z"
+    fill="#1656C1" stroke="#1656C1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M434,118 Q455,108 456,107 Q457,107 457,108 L457,128 Q457,129 456,129 Q455,128 434,118 Z"
+    fill="#1656C1" stroke="#1656C1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <polygon points="340,100 358,118 340,136 322,118" fill="#0D9488"/>
+
+  <line x1="240" y1="168" x2="440" y2="168" stroke="#4F35B8" stroke-width="1" opacity="0.35"/>
+
+  <text x="340" y="198" text-anchor="middle" class="wordmark">JTeeple Consulting</text>
+  <text x="340" y="218" text-anchor="middle" class="tag">OPTIMIZE YOUR TECHNOLOGY TODAY</text>
+
+</svg>
